@@ -1,0 +1,962 @@
+
+/*--------------------------------------------------------------
+# CSS Document
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Arrow Animation
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Move to top scroll - Desktop
+--------------------------------------------------------------*/
+
+.scroll-up {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	z-index: 1;
+}
+
+/*--------------------------------------------------------------
+# Global CSS - Desktop
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Header Menu - Desktop
+--------------------------------------------------------------*/
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #fff !important;
+	opacity: 0.75;
+}
+.navbar-default {
+	border-color: transparent;
+	background-color: transparent;
+}
+.navbar-brand {
+	padding: 5px 15px 0;
+}
+.navbar {
+	margin-bottom: 0;
+	min-height: auto;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 8px;
+	font-weight: 400;
+}
+
+/* Mega menu */
+
+/* Mega menu END */
+/* User Icon Start */       
+/*--------------------------------------------------------------
+# Header Menu Portion
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1024px) {
+	h2 {
+		/*font-family: myriad-pro;*/
+		font-weight: 400;
+		margin: 0;
+	}
+	a {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		outline: 0;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	/*--------------------------------------------------------------
+	
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Color CSS 
+	--------------------------------------------------------------*/
+
+	.white-color {
+		color: #ffffff !important;
+	}
+	/*--------------------------------------------------------------
+	# Background CSS 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Font size CSS-del
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Fontweight-del
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Padding CSS-del
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Border 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Line height 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Relative 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Block 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Arrow Animation
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Move to top scroll - Tablet (Landscape 1024px)
+	--------------------------------------------------------------*/
+
+	.scroll-up {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+		z-index: 1;
+	}
+	
+	.hidden-tab {
+		display: none !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Header Menu - Tablet (Landscape 1024px)
+	--------------------------------------------------------------*/
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+		background-color: transparent;
+		color: #fff !important;
+		opacity: 0.75;
+	}
+	.navbar-default {
+		border-color: transparent;
+		/*-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+		background-color: transparent;
+	}
+	.navbar-brand {
+		padding: 5px 15px 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+		min-height: auto;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+		font-size: 16px;
+		margin: 0 8px;
+		font-weight: 300;
+	}
+	.pos-right {
+		margin-right: 100px;
+	}
+	
+	/* Mega menu */
+	/* Mega menu END */
+	/*.indus, .servi {	
+		padding: 60px;
+	}*/
+	/*.y {
+		top: 18px;
+		width: 15px;
+		height: 2px;
+	}*/
+	/* header */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Tablet (Portrait 992px)
+	--------------------------------------------------------------*/
+	/* Social Share */
+}
+
+/* Mobile (Landscape) ----------- */
+@media screen and (max-width: 767px) {
+
+	/*--------------------------------------------------------------
+	# CSS Document
+	--------------------------------------------------------------*/
+	h2 {
+		/*font-family: myriad-pro;*/
+		font-weight: 400;
+		margin: 0;
+	}
+	a {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		outline: 0;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	/*--------------------------------------------------------------
+	
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Color CSS 
+	--------------------------------------------------------------*/
+
+	.white-color {
+		color: #ffffff !important;
+	}
+	/*--------------------------------------------------------------
+	# Background CSS 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Font size CSS
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Fontweight-del
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Padding CSS-del
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Border 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Line height 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Relative 
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Block 
+	--------------------------------------------------------------*/
+		
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 767px)
+	--------------------------------------------------------------*/
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+		background-color: transparent;
+		color: #fff !important;
+		opacity: 0.75;
+	}
+	.navbar-default {
+		border-color: transparent;
+		/*-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+		background-color: transparent;
+	}
+	.navbar-brand {
+		padding: 5px 15px 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+		min-height: auto;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+		font-size: 16px;
+		margin: 0 8px;
+		font-weight: 300;
+	}
+	.pos-right {
+		margin-right: 100px;
+	}
+	/* Mega menu */
+	/* Mega menu END */
+}
+
+@media screen and (max-width: 640px) {
+	/* Mobile (Landscape) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 640px)
+	--------------------------------------------------------------*/
+}
+
+@media screen and (max-width: 480px) {
+	/* Mobile (Landscape) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 480px)
+	--------------------------------------------------------------*/
+	
+}
+
+@media screen and (max-width: 360px) {
+	/* Mobile (portrait) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Portrait 360px)
+	--------------------------------------------------------------*/
+}
+
+@media screen and (max-width: 320px) {
+	/* Mobile (portrait) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Portrait 320px)
+	--------------------------------------------------------------*/
+}
+
+/* Portrait */
+
+/* Landscape */
+
+/* Layout for search container */
+/************************/
+/* Transitions 			*/
+/************************/
+
+/*.main-wrap {
+	transition: transform 0.6s, opacity 0.6s;
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}*/
+/* Search button */
+/* Close button */
+/* Halfs */
+/* Buttons */
+/* Reset Search Input */
+/* Links */
+/* Icons */
+/* Demo colors */
+
+/*.demo-9 {
+	color: #2d3535;
+	background-color: #597571;
+}*/
+/*--------------------------------  Breadcrumb css start------------------------------ */        
+.breadcrumb.aem-GridColumn{
+	margin: 0;
+    padding: 0;
+}
+/*--------------------------------  Breadcrumb css end------------------------------ */
+/*-------------------------------- ImageTeaser css start------------------------------ */
+/*-------------------------------- ImageTeaser css end------------------------------ */
+/*-------------------------------- Insights css start------------------------------ */
+
+/*--------------------------------------------------------------
+# Insights - Desktop
+--------------------------------------------------------------*/
+/*.yellow-bg {
+	background-color: #DF9926;commenting due to offerings page overwritten
+}*/
+
+/*--------------------------------------------------------------
+# (1280px)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Tablet (Landscape 1024px)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Mobile (Potrait 992px)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Mobile (Landscape 767px)
+--------------------------------------------------------------*/
+
+/*-------------------------------- Insights css end------------------------------ */
+/*Product css start*/
+/*--------------------------------------------------------------
+# Product Landing - Desktop
+--------------------------------------------------------------*/
+
+/*-----------Vertical tabs-----------*/
+/*--------------------------------------------------------------
+# Product Landing - Tablet (Landscape 1024px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+	 /*-----------Vertical tabs-----------*/
+}
+/*--------------------------------------------------------------
+# Product Landing - Tablet (Portrait 992px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+/*-----------Accordion styles-----------*/
+/*.resp-vtabs .resp-tab-content:last-child {
+	border-bottom: 1px solid #c1c1c1 !important;
+}*/
+}
+/*--------------------------------------------------------------
+# Product Landing - Mobile (Landscape 767px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+/*-----------Accordion styles-----------*/
+}
+/*Product css end*/
+/*tab-slider css start*/
+/*tab-slider css end*/        
+/*--------------------------------  Banner css start------------------------------ */
+/*--------------------------------------------------------------
+# Gradient - Desktop
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# home_banner - Desktop
+--------------------------------------------------------------*/
+#eq_ht_home_banner {
+	padding: 100px 0 50px;
+}
+.l-top {
+	margin-top: 100px !important;
+}
+#eq_ht_home_banner .h2-heading {
+	font-size: 70px;
+}
+/*--------------------------------------------------------------
+# home_banner -  Tablet
+--------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+#eq_ht_home_banner {
+	padding: 100px 0 50px;
+}
+#eq_ht_home_banner .h2-heading {
+	font-size: 50px;
+}
+#eq_ht_home_banner .l-top {
+	margin-top: 50px !important;
+}
+}
+/*--------------------------------------------------------------
+# home_banner - Mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+#eq_ht_home_banner {
+	padding: 100px 0 25px;
+}
+#eq_ht_home_banner .l-top {
+	margin-top: 25px !important;
+}
+#eq_ht_home_banner .h2-heading{
+	font-size: 40px;
+}
+}
+/*--------------------------------  Banner css end------------------------------ */
+/*teaser css start*/
+/*teaser css start*/
+/*Overview css start*//* Read More Button CSS Start */
+/* Read More Button CSS End */
+
+/* vCard CSS Start */
+/* vCard CSS Start */
+
+/* vCard Button CSS Start */
+/* vCard Button CSS End */
+
+/* pentagon CSS Start */
+
+@media screen and (max-width: 992px) {
+}
+/* pentagon CSS End */
+
+/* Others CSS Start */
+
+
+/*Overview css end*/
+/*text&button css start*/
+/*--Have more questions--*/
+
+/*-------------------------------------Apply Here-----------------------*/
+
+/*.promo-btn:hover {
+  background-color: #ddd6e1; 
+  color: black;   
+}*/
+/*------------------------------Explore Career------------------------------*/
+
+/*------------------------------Subscribe------------------------------*/
+/*text&button css end*/
+/*--------------------------------  CountryImageBanner css start------------------------------ */
+/*--------------------------------  CountryImageBanner css end------------------------------ */
+<!-- Multirow with SVG Text Start-->
+.aboutus-grid-title {
+	font-size: 25px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 0;
+}
+<!-- Multirow with SVG Text Start-->
+/*--------------------------------Location css start ------------------------------ */
+.dropdown-navigation-box {
+	padding: 50px 0;
+}	
+/*--------------------------------Leadershiptabs css end ------------------------------ */	
+/*-------------------------------- ImageGrid css start------------------------------ */
+/*-------------------------------- ImageGrid css end------------------------------ */
+/*teaserCarousel css start*/
+/*-----------arrow-navigation-------*/
+
+@media screen and (max-width: 1024px){
+    /*----dots----*/
+    /*----owl-nav-----*/
+    
+    
+}
+@media screen and (max-width: 767px){
+    /*-----dots----*/
+    
+   
+}
+/*teaserCarousel css end*/
+/*-------------------------------- ImageTilesV2 css start------------------------------ */
+.
+
+.bottom-gradient-grid {
+	background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateY(100%);
+	transition: all 0.5s ease 0s;
+}
+/*-------------------------------- ImageTilesV2 css end------------------------------ */
+
+/*-------------------------------- Imagewithtext css end------------------------------ */
+/*-------------------------------- Imagewithtext css start------------------------------ */
+
+/*----added as per CP Vijaya --------*/
+
+
+/*.bg-ship {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 436px;
+	margin-bottom: 80px;
+}
+.bg-ship .view-more {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 10px;
+	text-decoration: none;
+	position: relative;
+	left: 0;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.bg-ship .view-more:hover, .bg-ship .view-more:focus {
+	color: #000;
+	text-decoration: none;
+	left: 10px;
+}
+@media screen and (max-width: 1024px) {
+.bg-ship .view-more:hover, .bg-ship .view-more:focus {
+	left: 0px;
+}
+.bg-ship {
+	min-height: 492px;
+}
+}
+@media screen and (max-width: 992px) {
+.bg-ship {
+	min-height: 580px;
+}
+}
+@media screen and (max-width: 767px) {
+.bg-ship {
+	min-height: 785px;
+}
+}	
+@media screen and (max-width: 640px) {
+.bg-ship {
+	min-height: 765px;
+}
+}	
+
+@media screen and (max-width: 480px) {
+.bg-ship {
+	min-height: 905px;
+}
+}
+
+@media screen and (max-width: 360px) {
+.bg-ship {
+	min-height: 905px;
+}
+}
+@media screen and (max-width: 320px) {
+.bg-ship {
+	min-height: 1050px;
+}
+}*/
+
+/*-------------------------------- Imagewithtext css end------------------------------ */
+/*-------------------------------- Imagewithtext css start------------------------------ */
+
+/*--------------------------------Investortiles css start ------------------------------ */
+/*--Latest News--*/
+
+
+@media screen and (max-width: 1024px) {
+/*--Latest News--*/
+}
+@media screen and (max-width: 992px) {
+/* -- latest news -- */
+/*--Latest News--*/
+}
+@media screen and (max-width: 767px) {
+/*--Latest News--*/
+}
+@media screen and (max-width: 480px) {
+/*--Latest News--*/
+}
+/*--------------------------------Calendar css end ------------------------------ */
+/*-------------------------------- Location With Image css start ------------------------------ */
+/* Location With Image Variation-1 CSS Start */
+/* Location With Image Variation-1 CSS End   */
+
+/* Location With Image Variation-2 CSS Start */
+
+/*
+p.loc-cntry-txt {
+    margin: 0;
+}
+*/
+/* Location With Image Variation-2 CSS End   */
+
+/* Location With Image Variation-3 CSS Start */
+.l-top {
+    margin-top: 100px;
+}
+/* Location With Image Variation-3 CSS End   */
+
+/* Location With Image Variation-1 CSS Start */
+/* Location With Image Variation-1 CSS End   */
+
+@media screen and (max-width: 1024px) {
+	/* Location With Image Variation-1 CSS Start */
+	/*.h2-heading {
+		font-size: 50px;
+		line-height: 50px;
+	}*/
+	/* Location With Image Variation-1 CSS End   */
+
+    /* Location With Image Variation-2 CSS Start */
+    /* Location With Image Variation-2 CSS End   */
+
+	/* Location With Image Variation-3 CSS Start */
+	.l-top {
+		margin-top: 50px;
+	}        
+	/* Location With Image Variation-3 CSS End   */
+}
+
+@media screen and (max-width: 992px) {
+    /* Location With Image Variation-1 CSS Start */
+    /* Location With Image Variation-1 CSS End   */
+
+    /* Offering CSS Start - For Variation-3 */
+
+	/* Offering CSS End - For Variation-3   */
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Location With Image Variation-1 CSS Start */
+    /* Location With Image Variation-1 CSS End   */
+}
+
+@media screen and (max-width: 767px) {
+    /* Location With Image Variation-1 CSS Start */
+
+	.h2-heading {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	/* Location With Image Variation-1 CSS End   */
+
+	/* Location With Image Variation-2 CSS Start */
+
+	/*
+	.hvr-cntry {
+		display: block;
+		padding: 35px 0;
+		background: #000;
+	}
+	*/
+	/* Location With Image Variation-2 CSS End   */
+
+	/* Location With Image Variation-3 CSS Start */
+	.l-top {
+		margin-top: 25px;
+	}
+	/* Location With Image Variation-3 CSS End   */
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Location With Image Variation-1 CSS Start */
+    
+}
+/*-------------------------------- Location With Image css end ------------------------------ */
+
+/*--------------------------------------------------------------
+# navigation-block start
+--------------------------------------------------------------*/ 
+/*-------------------------------- Navigation block end------------------------------ */
+/*--------------------------------  ContactUs css start------------------------------ */
+.white-color {          
+    color: #ffffff;
+}
+/*--------------------------------  ContactUs css start------------------------------ */
+/*-------------------------------- ImageTiles css start------------------------------ */
+
+/*.eq-height [class*="col-"] {
+	margin-bottom: 25px;
+}
+*/
+/*-------------------------------- ImageTiles css end------------------------------ */
+
+/*--------------------------------Calendar css start ------------------------------ */
+/*Calendar CSS Updated By Swagata.Chaudhuri*/
+/*body ul {
+    font-size: 18px;
+    margin-bottom: 25px;
+}*/
+
+/*Calendar CSS Updated By Swagata.Chaudhuri*/
+/*--------------------------------Calendar css end ------------------------------ */
+/*offerings start*/
+/*-- Our Offerings --*/
+
+/*--------------------------------------------------------------
+# Our Offerings - Tablet (Portrait 992px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+    /*-- Our Offerings --*/
+    /*-- Our Experts --*/
+    /*-- Request for services --*/
+}
+
+/*--------------------------------------------------------------
+# Our Offerings - Mobile (Landscape 1024px)
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Our Offerings - Mobile (Landscape 767px)
+--------------------------------------------------------------*/
+/*--------------------------------Offerings end------------------------------ */
+/*offering with image start*/
+
+@media (max-width: 767px) {
+	h2 {
+		font-size: 40px;
+	}
+	/*ul.offering-list li {
+		padding-left: 0px;
+		margin-bottom: 20px;
+    	background: none;
+	}*/
+}	
+/*offering with image end*/
+
+/*.container-left-margin {
+	padding-left: 56.50px;
+
+}*/
+.white-color {
+    color: #ffffff !important;
+}    
+
+/*-------------------------------- API-Economy------------------------------ */
+
+/*-------------------------------- Cyber-Security------------------------------ */
+
+/*-------------------------------- Internet of things------------------------------ */        
+
+
+
+/*-------------------------------- Products and platforms------------------------------ */
+
+
+/*section {
+    padding: 100px 0;
+}*/        
+/*-------------------------------- Subsidairies------------------------------ */
+
+/*#main-text-body {
+    padding: 75px 0 0 0;affecting other css maintext content in sap pages
+
+}*/
+
+/*---------------------------Java Scritp for Roration icon zoomOut and zoomIn-----------------------------------*/
+
+/*-------------------------------Workplace-transformation---------------------------------*/
+.white-color {
+    color: #ffffff !important;
+}
+/*--------------------------------  Accordion css end------------------------------ */
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Success Stories - Desktop
+--------------------------------------------------------------*/
+/* -- social share -- */
+
+@media all and (max-width: 1024px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Success Stories - Tablet
+--------------------------------------------------------------*/
+	
+	/* -- social share -- */
+}
+
+@media all and (max-width: 992px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Tablet
+--------------------------------------------------------------*/
+	/* -- social share -- */
+}
+
+@media all and (max-width: 768px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Tablet
+--------------------------------------------------------------*/
+
+}
+
+@media all and (max-width: 767px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile 
+--------------------------------------------------------------*/
+/*-- commented as suggested by cp Vijay ---*/
+	/* -- social share -- */
+}
+
+@media all and (max-width: 640px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile
+--------------------------------------------------------------*/
+}
+
+@media all and (max-width: 480px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile
+--------------------------------------------------------------*/
+}
+
+@media all and (max-width: 360px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile
+--------------------------------------------------------------*/
+}
+
+@media all and (max-width: 320px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile
+--------------------------------------------------------------*/
+
+}
+
+
+/*added by yoga*/
+/*--------------------------------------------------------------
+# Color CSS-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Background CSS-del 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Font size CSS-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Fontweight-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Padding CSS-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Border-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Line height -del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Relative -del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Block-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Arrow Animation-del
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Move to top scroll - Tablet (Landscape 1024px)
+--------------------------------------------------------------*/
+
+.scroll-up {
+	position: fixed;
+	bottom: 20px;
+	right: 18px;
+	display: none;
+	z-index: 1;
+}
+/*--------------------------------------------------------------
+# Footer - Desktop
+--------------------------------------------------------------*/
+
+
+footer {
+	/* color: #333; */
+	color: #ffffff;
+
+	background-color: #d9d9d9;
+	background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+
+/*--------------------------------------------------------------
+# Footer - Mobile (Landscape 767px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+footer {
+	background: #F8F8F8;
+	color: #333;
+	/*padding: 50px 0;*/
+	/* border-top: 5px solid #d8d8d8; */
+}
+}
+

@@ -1,0 +1,48 @@
+.eq-mail-chimp-section #subscription-form .form-field .form-group input {
+  height: 64px !important;
+  border-radius: 30px;
+  background-color: hsla(0, 0%, 100%, .1) !important;
+  margin-right: 20px;
+  padding: 12px 0 16px 36px;
+  border: none;
+  color: var(--eq-white);
+  outline: none;
+  border: 2px solid #1e2f46;
+}
+
+.eq-mail-chimp-section #subscription-form .form-field {
+  margin: 2rem 0;
+}
+
+
+
+.ui-widget-overlay {
+  background: #aaaaaa;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+}
+
+.ui-widget-shadow {
+  -webkit-box-shadow: 0 0 5px #666666;
+  box-shadow: 0 0 5px #666666;
+}
+
+.social-media-links--platforms {
+  padding-left: 0;
+}
+
+.social-media-links--platforms.horizontal li {
+  display: inline-block;
+  text-align: center;
+  padding: .2em .35em;
+}
+
+.social-media-links--platforms.vertical li {
+  list-style-type: none;
+  margin: 0 0 .5em 0
+}
+
+.social-media-links--platforms.vertical li a img {
+  vertical-align: middle;
+  margin-right: .5em;
+}

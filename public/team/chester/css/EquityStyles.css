@@ -1,0 +1,75 @@
+
+
+@font-face {
+	font-family: "Nunito";
+	src: url('../../static/fonts/Nunito/Nunito-Black.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-BlackItalic.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-Bold.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-ExtraBold.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-ExtraBoldItalic.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-ExtraLight.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-Italic.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-Light.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-Regular.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-SemiBold.ttf');
+	src: url('../../static/fonts/Nunito/Nunito-SemiBoldItalic.ttf');
+  }
+
+
+
+  .light-gray{
+	  color: #7E7E7E !important;
+  }
+
+  .max-400 {
+	max-width: 400px;
+}
+.max-450 {
+	max-width: 450px;
+}
+.max-500 {
+	max-width: 500px;
+}
+.max-550 {
+	max-width: 550px;
+}
+.max-600 {
+	max-width: 600px;
+}
+.max-650 {
+	max-width: 650px;
+}
+.max-700 {
+	max-width: 700px;
+}
+.max-750 {
+	max-width: 750px;
+}
+.max-800 {
+	max-width: 800px;
+}
+.max-850 {
+	max-width: 850px;
+}
+.max-900 {
+	max-width: 900px;
+}
+.max-950 {
+	max-width: 950px;
+}
+.max-1000 {
+	max-width: 1000px;
+}
+
+.mt45 {
+	margin-top: 45px;
+}
+
+.margin-top-45 {
+	margin-top: 45px;
+}
+
+
+.margin-top-50 {
+	margin-top: 50px;
+}

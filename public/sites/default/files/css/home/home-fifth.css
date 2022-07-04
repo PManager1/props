@@ -1,0 +1,55 @@
+/******************************************************************************
+**
+**  Color Declaration
+**
+*******************************************************************************/
+:root {
+  --eq-light-blue: #00b5e2;
+  --eq-primary-blue: #0870d8;
+  --eq-dark-blue-grey: #1e2f46;
+  --eq-dark-light-grey: #e5e9ee;
+  --eq-dull-light-grey: #f4f4f6;
+  --eq-dark-indigo: #0d1623;
+  --eq-white: #ffffff;
+  /* --eq-grey: #f0f3f7; */
+  --eq-grey: white;
+  --eq-dark-grey: #979797;
+  --eq-purple: #3e439b;
+  /* --eq-dark-purple: #32356e; */
+  /* Brown */
+  --eq-dark-purple: #582919;
+  --rgb-eq-light-blue: 0, 181, 226;
+  --rgb-eq-primary-blue: 8, 112, 216;
+  --rgb-eq-dark-blue-grey: 30, 47, 70;
+  --rgb-eq-dark-indigo: 13, 22, 35;
+  --rgb-eq-white: 255, 255, 255;
+  --rgb-eq-grey: 240, 243, 247;
+  --rgb-eq-dark-grey: 151, 151, 151;
+  --rgb-eq-purple: 62, 67, 155;
+  --rgb-eq-dark-purple: 50, 53, 110; 
+  /*--eq-purple-gradient-color-1: #923cb5;*/
+  /*--eq-purple-gradient-1: linear-gradient(147deg, #923cb5 0%, #000000 74%);*/
+  --eq-common-spirit-light : #CB5699;
+  --eq-common-spirit-dark : #47344C;
+  --eq-purple-1: #9b45b2;
+}
+
+/*******************************************************************************
+**
+**  EQ Fonts  are in Equity Styles.css 
+**
+*******************************************************************************/
+
+
+[class*=" ficon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

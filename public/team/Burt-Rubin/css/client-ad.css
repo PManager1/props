@@ -1,0 +1,514 @@
+/*
+ *  Copyright Equity Dental
+# Move to top scroll - Desktop
+--------------------------------------------------------------*/
+
+.scroll-up {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	z-index: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Header Menu - Desktop
+--------------------------------------------------------------*/
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #fff !important;
+	opacity: 0.75;
+}
+.navbar-default {
+	border-color: transparent;
+	background-color: transparent;
+}
+.navbar-brand {
+	padding: 5px 15px 0;
+}
+.navbar {
+	margin-bottom: 0;
+	min-height: auto;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 8px;
+	font-weight: 400;
+}
+
+
+@media screen and (max-width: 1024px) {
+	h2 {
+		/*font-family: myriad-pro;*/
+		font-weight: 400;
+		margin: 0;
+	}
+	a {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		outline: 0;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	
+	.white-color {
+		color: #ffffff !important;
+	}
+	
+	.scroll-up {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+		z-index: 1;
+	}
+	
+	.hidden-tab {
+		display: none !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Header Menu - Tablet (Landscape 1024px)
+	--------------------------------------------------------------*/
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+		background-color: transparent;
+		color: #fff !important;
+		opacity: 0.75;
+	}
+	.navbar-default {
+		border-color: transparent;
+	
+		background-color: transparent;
+	}
+	.navbar-brand {
+		padding: 5px 15px 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+		min-height: auto;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+		font-size: 16px;
+		margin: 0 8px;
+		font-weight: 300;
+	}
+	.pos-right {
+		margin-right: 100px;
+	}
+
+}
+
+/* Mobile (Landscape) ----------- */
+@media screen and (max-width: 767px) {
+
+	/*--------------------------------------------------------------
+	# CSS Document
+	--------------------------------------------------------------*/
+	h2 {
+		/*font-family: myriad-pro;*/
+		font-weight: 400;
+		margin: 0;
+	}
+	a {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		outline: 0;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	/*--------------------------------------------------------------
+	
+	--------------------------------------------------------------*/
+	/*--------------------------------------------------------------
+	# Color CSS 
+	--------------------------------------------------------------*/
+
+	.white-color {
+		color: #ffffff !important;
+	}
+	/*--------------------------------------------------------------
+	# Background CSS 
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 767px)
+	--------------------------------------------------------------*/
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+		background-color: transparent;
+		color: #fff !important;
+		opacity: 0.75;
+	}
+	.navbar-default {
+		border-color: transparent;
+
+		background-color: transparent;
+	}
+	.navbar-brand {
+		padding: 5px 15px 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+		min-height: auto;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+		font-size: 16px;
+		margin: 0 8px;
+		font-weight: 300;
+	}
+	.pos-right {
+		margin-right: 100px;
+	}
+	/* Mega menu */
+	/* Mega menu END */
+}
+
+@media screen and (max-width: 640px) {
+	/* Mobile (Landscape) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 640px)
+	--------------------------------------------------------------*/
+}
+
+@media screen and (max-width: 480px) {
+	/* Mobile (Landscape) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Landscape 480px)
+	--------------------------------------------------------------*/
+	
+}
+
+@media screen and (max-width: 360px) {
+	/* Mobile (portrait) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Portrait 360px)
+	--------------------------------------------------------------*/
+}
+
+@media screen and (max-width: 320px) {
+	/* Mobile (portrait) ----------- */
+
+	/*--------------------------------------------------------------
+	# Header Menu - Mobile (Portrait 320px)
+	--------------------------------------------------------------*/
+}
+
+/*--------------------------------  Breadcrumb css start------------------------------ */        
+.breadcrumb.aem-GridColumn{
+	margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	 /*-----------Vertical tabs-----------*/
+}
+/*--------------------------------------------------------------
+# Product Landing - Tablet (Portrait 992px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+/*-----------Accordion styles-----------*/
+}
+
+#eq_ht_home_banner {
+	padding: 100px 0 50px;
+}
+.l-top {
+	margin-top: 100px !important;
+}
+#eq_ht_home_banner .h2-heading {
+	font-size: 70px;
+}
+/*--------------------------------------------------------------
+# home_banner -  Tablet
+--------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+#eq_ht_home_banner {
+	padding: 100px 0 50px;
+}
+#eq_ht_home_banner .h2-heading {
+	font-size: 50px;
+}
+#eq_ht_home_banner .l-top {
+	margin-top: 50px !important;
+}
+}
+/*--------------------------------------------------------------
+# home_banner - Mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+#eq_ht_home_banner {
+	padding: 100px 0 25px;
+}
+#eq_ht_home_banner .l-top {
+	margin-top: 25px !important;
+}
+#eq_ht_home_banner .h2-heading{
+	font-size: 40px;
+}
+}
+
+@media screen and (max-width: 992px) {
+}
+
+.aboutus-grid-title {
+	font-size: 25px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 0;
+}
+
+
+.dropdown-navigation-box {
+	padding: 50px 0;
+}	
+
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 767px){
+   
+}
+
+
+.bottom-gradient-grid {
+	background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateY(100%);
+	transition: all 0.5s ease 0s;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 992px) {
+
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+
+.l-top {
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.l-top {
+		margin-top: 50px;
+	}        
+
+}
+
+@media screen and (max-width: 992px) {
+ 
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 767px) {
+
+	.h2-heading {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	/* Location With Image Variation-1 CSS End   */
+
+	.l-top {
+		margin-top: 25px;
+	}
+	/* Location With Image Variation-3 CSS End   */
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Location With Image Variation-1 CSS Start */
+    
+}
+
+.white-color {          
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+	h2 {
+		font-size: 40px;
+	}
+
+}	
+
+.white-color {
+    color: #ffffff !important;
+}
+
+
+@media all and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 992px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+
+}
+
+@media all and (max-width: 767px) {
+
+}
+
+@media all and (max-width: 640px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 360px) {
+
+}
+
+@media all and (max-width: 320px) {
+/*--------------------------------------------------------------
+# Global CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Success Stories - Mobile
+--------------------------------------------------------------*/
+
+}
+
+
+.scroll-up {
+	position: fixed;
+	bottom: 20px;
+	right: 18px;
+	display: none;
+	z-index: 1;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Footer - Desktop
+--------------------------------------------------------------*/
+
+.skip-main-cnt,
+.skip-footer {
+            background: #DF9926;
+            height: auto;
+            left: 0%;
+            padding: 8px;
+            position: absolute;
+            transform: translateY(-100%);
+            transition: transform 0.3s;
+            color: #ffffff;
+            z-index: 9999;
+            outline: 0 !important;
+}
+ 
+.skip-main-cnt:focus,
+.skip-footer:focus {
+            transform: translateY(0%);
+            color: #ffffff;
+}
+
+
+footer {
+	/* color: #333; */
+	color: #ffffff;
+
+	background-color: #d9d9d9;
+	background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+ul.footer-txt > li:first-child {
+	margin-top: 20px;
+}
+ul.footer-txt > li {
+	margin-bottom: 10px;
+}
+ul.footer-txt > li > a {
+	color: #3F3F3F;
+	font-size: 16px;
+}
+.ftr-head {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 900;
+}
+@media screen and (max-width: 1024px){
+.ftr-head {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+}
+}
+
+/*--------------------------------------------------------------
+# Footer - Mobile (Landscape 767px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+footer {
+	background: #F8F8F8;
+	color: #333;
+	/*padding: 50px 0;*/
+	/* border-top: 5px solid #d8d8d8; */
+}
+footer ul{
+	margin-bottom: 10px;
+}    
+ul.footer-txt > li:first-child {
+	margin-top: 20px;
+}
+ul.footer-txt > li {
+	margin-bottom: 10px;
+}
+ul.footer-txt > li > a {
+	color: #3F3F3F;
+	font-size: 16px;
+}
+.ftr-head {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 900;
+    margin: 0;
+}
+
+}

@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <style>
+    /* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */
+    .js img.lazyload:not([src]) {
+      visibility: hidden;
+    }
+
+    /* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */
+    .js img.lazyloaded[data-sizes=auto] {
+      display: block;
+      width: 100%;
+    }
+  </style>
+
+
+
+    <!-- Fonts new -->
+    <link rel="preload" href="themes/fonts/Nunito/Nunito-Regular.ttf" as="font"
+    type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="themes/fonts/Nunito/Nunito-BoldItalic.ttf"
+    as="font" type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-Bold.ttf" as="font"
+    type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-italic.ttf" as="font"
+    type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="themes/custom/assets/fonts/eq-icons.ttf" as="font" type="font/ttf" crossorigin="anonymous" />  
+<!-- Fonts end -->
+
+
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+
+<style>
+  .wooden{
+    /* background:brown;  */
+    /*background: url('static/img/woods/w-o-c.jpg');*/
+  }
+  .swiper-container {
+    width: 100%;
+    /* height: 100%; */
+    height: 700px;
+    color: white;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    background: url('static/img/woods/w-o-c.jpg');
+    background-size: cover;
+    background-clip: border-box;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-image: 'static/img/woods/22.jpeg'; */
+  }
+</style>
+
+
+  <meta name="description" content="Equity Health Group, eqdpi, Dental Partners, Dental Brokers, Dental Partnership, Dental Affiliation, Dental Brokers in columbus, Dental Brokers in cincinatti, Dental Brokers in kentuky, Dental Brokers in Indianapolis, Dental Brokers in Indiana, We buy healthcare businesses, practice transitions, dental practice transitions" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+  <meta name="keywords" content="Equity Health Group" />
+
+  <!-- remove it ? -->
+  <!-- <link rel="stylesheet" media="all" href="sites/default/files/css/home/zerosecond.css" /> -->
+
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+
+
+  <link rel="icon" href="static/logo/eqlogo.png" sizes="32x32" />
+  <link rel="icon" href="static/logo/eqlogo.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="static/logo/eqlogo.png" />
+
+
+  <title>Equity Health Group | Let's chat about how we can help you </title>
+
+  
+  <!-- clean done  Bit by bit -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/first-home-and-ir.css" />
+
+  
+  <!-- skip to main content comes on the top -->
+  <!--   Clean done  Bit by bit - commmenting leads to minor issues -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/home-second.css" />
+
+
+  <!--  Clean Done | Bit by bit   works with Buttons  -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/home-forth.css" />
+
+
+
+  <!-- Clean Done | Bit by bit   ? check  removing it shows the search bar -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/home-fifth.css" />
+
+
+  <!--  ????  dev - this can be improved ? ( 12/8 )   COMMON FILE  For ICONS -     -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/common/common-home-ir-profiles.css" />
+
+
+
+  <link rel="stylesheet" media="all"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+
+  <!-- Dev - 100% Clean Done  | Bit by bit  |  dev-minified For Fonts      -->  
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/home-sixth.css" />
+
+
+
+  <!-- Global ( dev Jun 17 )    site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9YCQ8NP1E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L9YCQ8NP1E');
+  </script>
+
+  <!-- Google tracking id =  G-L9YCQ8NP1E -->
+<!-- GA end -->
+
+
+
+<link rel="stylesheet" href="themes/FoundationPress/iterations.css" />
+
+  
+  <script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+    heap.load("3663022764");
+  </script>
+
+ 
+  <!-- loader start -->
+  <link rel="stylesheet" media="all" href="sites/default/files/css/home/animate.css" />
+
+<style>
+  .preloader {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;      
+/* Great working */
+      background-color: #a55c1b;
+      background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+      text-align: center;
+      z-index: 9999999
+  }
+
+  .preloader .spinner {
+      width: 139px;
+      height: 49px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto
+  }
+
+  .loader-logo {
+      float: left
+  }
+
+  .loader-logo img {
+      width: 139px;
+      height: auto
+  }
+</style>
+<!-- loader end -->
+
+<script>
+(function(){
+  
+  // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
+  var d = document, e = d.documentElement, s = d.createElement('style');
+  // if (e.style.MozTransform === ''){ // gecko 1.9.1 inference
+    s.textContent = 'body{visibility:hidden}';
+    var r = document.getElementsByTagName('script')[0];
+    r.parentNode.insertBefore(s, r);
+    function f(){ s.parentNode && s.parentNode.removeChild(s); }
+    addEventListener('load',f,false);
+    setTimeout(f,3000);
+  // }
+  console.log('223 - delay 3 secs');
+})();
+
+// a nice improvement to this script is to only hide the elements using webfonts 
+// with visibility:hidden instead of the entire <body>
+// that's up to you to select them in that textContent line, though
+</script>
+
+
+
+
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+
+  <!-- End Google Tag Manager (noscript) -->
+  <a href="#main-content" class="visually-hidden focusable">
+      Equity Health Group | Lets chat how we can help you. 
+    <!--  Skip to main content -->
+  </a>
+
+
+<!-- loader start -->
+  <div class="preloader">
+    <div class="spinner">
+        <div class="loader-logo"><img  src="static/logo/l1.webp">
+        </div>
+    </div>
+</div>
+<!-- loader start -->
+
+
+<!-- nav start  -->
+
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+  <div class="page eq-page landing-page" role="eq-main-page-content">
+    <!--  Render Navigations -->
+    <!-- header menu begins -->
+
+    <!-- wood nav here -->
+    <header style="background-image: url('../static/img/woods/wood1.webp')" class="header eq-header eq-transparent-header" role="header">
+
+      <nav style="background-image: url('../static/img/woods/wood1.webp')" id="block-eq-unified-main-menu" id="block-eq-unified-main-menu"
+        class="contextual-region navbar navbar-dark navbar-expand-lg eq-menu-main bg-transparent text-white px-3 px-lg-4"
+        data-block-plugin-id="system_menu_block:main">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand text-white" href="/">
+            <img class="d-inline-block img-fluid" alt="EQDPI" title="EQDPI Logo"
+              src="static/logo/l1.webp">
+
+          </a>
+
+          <button class="navbar-toggler ml-auto rounded-0 collapsed" type="button"
+            aria-controls="navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="main-menu-wrapper ml-auto">
+              <ul data-region="header" data-region="header" class="navbar-nav ml-auto first--level">
+
+
+                <li class="nav-item menu-level-one">
+                  <a href="/careers/about-us" class="nav-link px-auto px-lg-3 text-white iexternal"
+                    rel="noopener noreferrer" title="about"> About
+
+                  </a>
+                </li>
+
+                <li class="nav-item menu-level-one">
+                  <a href="/careers" class="nav-link px-auto px-lg-3 text-white iexternal"
+                    rel="noopener noreferrer" title="Careers"> Careers
+
+                  </a>
+                </li>
+
+
+                <!-- <li class="nav-item menu-level-one">
+                  <a href="/partnerships" title="Partnerships"
+                    class="nav-link px-auto px-lg-3 text-white"> Partnerships
+                  </a>
+                </li> -->
+
+                <li class="nav-item menu-level-one">
+                  <a href="/free-business-valuation/" title="Free Valuation"
+                    class="nav-link px-auto px-lg-3 text-white"> Free Valuation
+                  </a>
+                </li>
+
+                <!-- <li class="nav-item menu-level-one">
+                  <a target="blank" href="/careers/contact/index.html" title="Contact" class="nav-link px-auto px-lg-3 text-white"> Contact
+                  </a>
+                </li> -->
+
+
+                <span class="dd-lightbox"></span>
+                <span class="dd-bg"></span>
+              </ul>
+
+            </div>
+          </div>
+
+
+          <!-- mobile menu -->
+          <!-- dev   -->
+          <div style="background-image: url('../../../../../static/img/woods/wood1.webp');" class="mobile-navbar overlay d-lg-none">
+            <div class="wrap_overlay collapse" id="navbarSupportedContent">
+              <div class="inner--wrapper">
+                <ul class="list-unstyled nav--list--level1 col-md-6 col-sm-12">
+                  
+                  <li class="nav-item">
+                    <div class="active-arrow">
+                      <a href="/careers/about-us/" target="_self" title="About"
+                        class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                        <h3>About
+                          <!-- <i class="dropdown-right ficon-dropdown"></i> -->
+                        </h3>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="active-arrow">
+                      <a target="blank" href="/careers" title="Careers" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                        <h3>Careers</h3>
+                      </a>
+                    </div>
+
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="active-arrow">
+
+                      <a target="blank" href="/Partnerships" title="Partnerships" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                        <h3>Partnerships</h3>
+
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="active-arrow">
+
+                      <a href="/investors" title="Investors" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                        <h3>Investors</h3>
+
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="active-arrow">
+
+                      <a href="/careers/contact" title="Investors" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                        <h3>Contact</h3>
+
+                      </a>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <span class="dd-light-mask"> </span>
+        </div>
+        <span class="dd-light-mask"> </span>
+      </nav>
+
+    </header>
+    <!-- header menu ends -->
+
+
+
+    <header  class="header eq-header sticky--float--header d-none d-lg-flex">
+
+      <nav style="background-image: url('../static/img/woods/wood1.webp')" id="block-eq-unified-main-menu" id="block-eq-unified-main-menu"
+        class="contextual-region navbar navbar-dark navbar-expand-lg eq-menu-main bg-transparent text-white px-3 px-lg-4"
+        data-block-plugin-id="system_menu_block:main">
+        
+        <!-- dev   wood nav here -->
+        <div style="background-image: url('../static/img/woods/wood1.webp')" class="container-fluid">
+
+
+          <a class="navbar-brand text-white" href="/">
+            <img class="d-inline-block img-fluid" alt="Equity Health Group" title="Eqdpi Logo"
+              src="https://eqhgp.com/static/logo/l1.webp">
+          </a>
+
+          <button class="navbar-toggler ml-auto rounded-0 collapsed" type="button"
+            aria-controls="navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="nav d-lg-none eq-nav-icons-mobile">
+
+          </ul>
+
+          <ul class="nav d-none d-lg-flex eq-nav-icons-mobile">
+          </ul>
+
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="main-menu-wrapper ml-auto">
+              <ul data-region="header" data-region="header" class="navbar-nav ml-auto first--level">
+
+                <li class="nav-item menu-level-one">
+                  <a href="/careers/about-us/" target="_self" title="About" class="nav-link px-auto px-lg-3 text-white"> About
+                  </a>
+                </li>
+                
+
+                <li class="nav-item menu-level-one">
+
+                  <a href="/careers" class="nav-link px-auto px-lg-3 text-white iexternal" 
+                    rel="noopener noreferrer" title="Careers"> Careers
+                  </a>
+
+                </li>
+
+                <li class="nav-item menu-level-one">
+                  <a href="/Partnerships"  title="Partnerships"
+                    class="nav-link px-auto px-lg-3 text-white"> Partnerships
+                  </a>
+
+                </li>
+
+                <li class="nav-item menu-level-one">
+                  <a href="/careers/contact/index.html" target="_self" title="Contact" class="nav-link px-auto px-lg-3 text-white"> Contact
+                  </a>
+                </li>
+
+                <span class="dd-lightbox"></span>
+                <span class="dd-bg"></span>
+              </ul>
+
+            </div>
+          </div>
+
+
+          <!-- mobile menu  wtf is going on here -->
+          <div class="mobile-navbar overlay d-lg-none">
+            <div class="wrap_overlay collapse" id="navbarSupportedContent">
+              <div class="inner--wrapper">
+                <ul class="list-unstyled nav--list--level1 col-md-6 col-sm-12">
+                  
+                  <li class="nav-item--level2">
+                    <a href="/" title="Lorem" class="mobilenav-link">
+                      <h3>First</h3>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <span class="dd-light-mask"> </span>
+        </div>
+        <span class="dd-light-mask"> </span>
+      </nav>
+
+
+      <!-- <div class="block block--basic block--accessibilityscript">
+        <div class="basic__body">
+        </div>
+      </div> -->
+
+
+    </header>
+      <!-- floating header menu ends -->
+
+      <!-- nav end -->
+      <main class="eq-main" role="main">
+        <div class="hidden"></div>
+
+        <div class="block block--eq-unified-content">
+
+          <article role="article" about="/home">
+            <div>
+              <div  class="landing-page__body">
+
+                <section style="background-image: url('../static/img/woods/wood1.webp')" class="wp-block-custom-eq-hero-landing undefined alignfull small" id="eq-heroLanding">
+                  <div class="main-background"
+                    style="background-color:var(--eq-dark-purple); background-image:url('');color:white"
+                    data-entity-type="file" data-image-style="original"></div>
+                  <div style="background-image: url('../static/img/woods/wood1.webp')" class="image-gradient"></div>
+                  <div class="container-fluid-custom no-gutters p-0">
+                    <div class="bg-overlay" style="display:block; background-color: var(--eq-dark-purple); opacity:0.1">
+
+                      
+                    </div>
+                    <div style="background-image: url('../static/img/woods/wood1.webp')" class="row pr-0 pl-0 no-gutters post-entry">
+                      <div class="col-lg-7 col-md-12 col-sm-12 pr-0 pl-0 no-gutters text-wrapper">
+                        <div class="intro-text">
+                          <main>
+                            <!-- this css in .hero-landing -->
+                            <h1> We partner with dentists & help them grow.  </h1>
+                            <!-- Transitioning a dental practice isn't easy <br /> We want to help you with a smooth transition -->
+
+                            <p class="has-large-font-size body-1">
+                              Equity is committed to providing the best non-clinical support to dentists.</p>
+                              <!-- <span>nationwide ( bring back )</span> -->
+
+                            <div class="wp-block-button is-style-fill"><a class="wp-block-button__link" href="/careers/about-us/index.html"
+                                 rel="noreferrer noopener">Learn more
+                              </a></div>
+                          </main>
+                        </div>
+                      </div>
+
+
+
+                      <div   
+                        class="col-lg-8 col-md-12 col-sm-12 bleed-end-col-lg-7 bleed-full-md bleed-col-12 image-wrapper">
+                        <div class="header-image">
+                          <div data-aos="fade-left" class="image-feature post-image"> 
+                            <!-- static/img/dentist/d89.webp -->
+                            <img  loading="lazy" alt="Equity Dental" src="static/img/home/mat5.jpeg" style="border-radius: 25px"
+                              class="lazyload" loading="lazy" data-src="static/img/home/mat5.jpeg" />
+
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+
+
+                <!-- spacer before the nav elements  -->
+                <section id="" class="wp-block-custom-eq-spacer undefined alignfull" style="background-color:var(--eq-purple-gradient-color-1);
+                background-image: url('../static/img/woods/wood1.webp');
+                   height:8em"></section>
+
+                <!--  the nav elements   background-image: url('../static/img/woods/7.webp'  -->
+                <div id="eq-today" class="wp-block-custom-eq-sub-navigation"
+                  style="background-image: url('../static/img/woods/7.webp'); ">
+                  <!-- left logo here  -->
+                  <div class="container-fluid-custom">
+                    <nav id="subNavEQ" style="background-color: var(--eq-dark-purple); background-image: url('../static/img/woods/7.webp');"><a href="/" target="_self">
+                        <div class="logo"></div>
+                      </a>
+                      <ul>
+                        <li>
+                          <h6><a href="#eq-focus">Focus</a></h6>
+                        </li>
+                        <li>
+                          <h6><a href="#eq-software">Software</a></h6>
+                        </li>
+                        <li>
+                          <h6><a href="/services/">Services</a></h6>
+                        </li>
+
+                        <li>
+                          <h6><a href="#eq-partnership">Let's Chat</a></h6>
+                        </li>
+                        <!-- dev bring back -->
+                        <!-- <li>
+                          <h6><a href="#eq-partnership">Join Us</a></h6>
+                        </li> -->
+                        <li>
+                          <h6><a href="#eq-investors">Investors</a></h6>
+                        </li>
+                        <!-- <li>
+                          <h6><a href="/careers/contact/index.html">Contact</a></h6>
+                        </li> -->
+                      </ul>
+                      <div id="show">...
+
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+
+
+
+
+                <!-- wood content start  -->
+
+                <!-- wood content end  -->
+
+
+                <!-- new wood start  -->
+                <div class="views-element-container block">
+
+                  <div >  
+                    <!-- wp-block-custom-eq-spotlight -->
+                    <section  id="eq-values" data-eq-spotlight-instance-id="1"
+                      class="undefined alignfull" style=" background-color:var(--eq-purple-gradient-color-1);
+                      background-image:url('../static/img/woods/wood1.webp'); padding-top:90px; height: 230px !important;  padding-bottom:60px; ">
+                    
+                        <div  class="slider-stack light-container container-fluid-custom">
+
+
+                          <header >
+                            <div class="row slider-header-row">
+                              <div class="slider-header col-12">
+                                <h2 class="slider-title" style="color:var(--eq-white);text-align:left">Equity's Values</h2>
+                              </div>
+                            </div>
+                          </header>
+
+                        </div>
+                      <!-- </div> -->
+                    </section>
+                  </div>
+
+
+
+                  <div class="wooden views-element-container block">
+                    <div class="swiper-container mySwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide"><h2>Our Partners are our priority</h2>
+                        
+                         
+                        </div>
+                        <div class="swiper-slide">
+                          <h2>We believe in the power of team work</h2>
+    
+                         
+                        </div>
+                        <div class="swiper-slide">
+                          <h2>Honesty and Integrity are fundamental to our business</h2>
+                         
+                        </div>
+                        <div class="swiper-slide">
+                          <h2>We care deeply about our people and the communities that we work in</h2>
+                        </div>
+                      </div>
+                    
+    
+                      <div class="wp-block-button is-style-fill"><a class="wp-block-button__link" href="/"
+                         rel="noreferrer noopener">Learn more
+                      </a></div>
+                      <!-- <div class="swiper-button-next"></div> -->
+                      <!-- <div class="swiper-button-prev"></div> -->
+                      <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                  </div>
+    
+
+                </div>
+
+              
+
+                <!-- new wood end -->
+
+                <div  class="views-element-container block">
+
+                  <div>
+                    <section  id="eq-focus" data-eq-spotlight-instance-id="1"
+                      class="wp-block-custom-eq-spotlight undefined alignfull" style="background-color:var(--eq-purple-gradient-color-1);
+                      background-image: url('../static/img/woods/wood1.webp');">
+                      <div class="js-view-dom-id-2910481bf4a282249a62a8d6590ea20f8e06ea65a418d03910b91f3d9b699e95">
+                        <div class="slider-stack light-container container-fluid-custom">
+
+
+                          <header >
+                            <div class="row slider-header-row">
+                              <div class="slider-header col-12">
+                                <h2 class="slider-title" style="color:var(--eq-white);text-align:left">Equity Focus</h2>
+                              </div>
+                            </div>
+                          </header>
+
+
+                          <div class="row slider-container-row">
+                            <div class="slider-container bleed-end-col-12 mr-0 pr-0 w-100">
+                              <div class="slider-items">
+
+                                <!-- background-color: var(--eq-light-purple);
+                                background-color: #a55c1b;
+                                background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%); -->
+
+                                
+
+                         <div class="wp-block-custom-eq-feature-card-image">
+                                  <div class="card-container" style=" background-image: url('static/img/woods/3.webp');
+                                  ">
+                                    <img  loading="lazy" style="border-radius: 25px;" srcset="static/img/dentist/d1.webp 480w,
+                                    static/img/dentist/d1.webp 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/woods/10.jpeg" />
+                                    <!--div class="card-container" style="background-color:var(--eq-dark-blue-grey);background-image:url('');"-->
+                                    <div class="card-feature"></div>
+
+                                    <div class="card-stack" style="background-color: var(--eq-dark-purple);
+                                    background-image: url('../../static/img/woods/w2.webp');
+                                    ">
+                                      <div class="card-title">
+                                        <p class="body-2" style="color:var(--eq-white);text-align:left"><a
+                                            href="/services" rel="noopener noreferrer"> <strong>Strategy</strong> -
+                                            Dentist led transformation: </strong>We agree to a common long-term plan for
+                                            your practice to reach the desired, future state you envision. A strategy
+                                            includes your practice's goals and objectives, the patients who you want to
+                                            acquire and the markets you serve to make profits.</a></p>
+                                      </div>
+                                      <div class="card-cta">
+                                        <h6 class="call-to-action" style="color:var(--eq-white)"><a href="/"
+                                            >Strategy</a></h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                             
+
+                                <div class="wp-block-custom-eq-feature-card-image">
+                                  <div class="card-container" style="background-image: url('static/img/woods/3.webp');">
+                                    <img  loading="lazy" alt="Equity Dental" style="border-radius: 25px;" srcset="static/img/dentist/d6-c.webp 480w,
+                                    static/img/dentist/d6-c.webp 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/dentist/d6-c.webp" />
+                                    <!--div class="card-container" style="background-color:var(--eq-dark-blue-grey);background-image:url('');"-->
+                                    <div class="card-feature"></div>
+
+                                    <div class="card-stack" style="background-color:var(--eq-dark-purple);
+                                    background-image: url('../../static/img/woods/w2.webp')
+                                    
+                                    ">
+                                      <div class="card-title">
+                                        <p class="body-2" style="color:var(--eq-white);text-align:left"><a
+                                            href="/" rel="noopener noreferrer"><strong>Analytics Insight
+                                            </strong>: Do 2x more revenue.
+
+                                            Build an analytics-driven dental practice to generate more revenue</a></p>
+                                      </div>
+                                      <div class="card-cta">
+                                        <h6 class="call-to-action" style="color:var(--eq-white)"><a href="/"
+                                            >Analytics</a></h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+                                <div class="wp-block-custom-eq-feature-card-image">
+                                  <div class="card-container" style="
+                                    background-image: url('static/img/woods/3.webp');">
+                                    <img  loading="lazy" alt="Equity Dental" style="border-radius: 25px;" srcset="static/img/dentist/female-desk-2.webp 480w,
+                                    static/img/dentist/female-desk-2.webp 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/dentist/female-desk-2.webp" />
+                                    <!--div class="card-container" style="background-color:var(--eq-dark-blue-grey);background-image:url('');"-->
+                                    <div class="card-feature"></div>
+
+
+                                    <div class="card-stack" style="background-image: url('static/img/woods/3.webp');
+                                    background-image: url('../../static/img/woods/w2.webp');
+                                    ">
+                                      <div class="card-title">
+                                        <p class="body-2" style="color:var(--eq-white);text-align:left"><a
+                                            href="/services" rel="noopener noreferrer"> <strong>Customer
+                                              Service:</strong> We provide the best customer service. Cultivating the
+                                            best doctor patient relationship.</a></p>
+                                      </div>
+                                      <div class="card-cta">
+                                        <h6 class="call-to-action" style="color:var(--eq-white)"><a href="/"
+                                            >Customer
+                                            service</a></h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+                                <div class="wp-block-custom-eq-feature-card-image">
+                                  <div class="card-container" style="background-image: url('static/img/woods/3.webp');">
+                                    <img  loading="lazy" alt="Equity Dental" style="border-radius: 25px;" srcset="static/img/home/marketing-full.webp 480w,
+                                    static/img/home/marketing-full.webp 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/home/marketing-full.webp" />
+                                    <!--div class="card-container" style="background-color:var(--eq-dark-blue-grey);background-image:url('');"-->
+                                    <div class="card-feature"></div>
+
+                                    <div class="card-stack" style="background-color: var(--eq-dark-purple);
+                                    background-image: url('../../static/img/woods/w2.webp');
+                                    ">
+                                      <div class="card-title">
+                                        <p class="body-2" style="color:var(--eq-white);text-align:left"><a
+                                            href="/services" rel="noopener noreferrer"><strong>Marketing:</strong>
+                                            Achieve maximum out of limited budget</a></p>
+                                      </div>
+                                      <div class="card-cta">
+                                        <h6 class="call-to-action" style="color:var(--eq-white)"><a href="/"
+                                            >Marketing</a></h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+                                <div class="wp-block-custom-eq-feature-card-image">
+                                  <div class="card-container" style="background-image: url('static/img/woods/3.webp');">
+                                    <img  loading="lazy" alt="Equity Dental" style="border-radius: 25px;" srcset="static/img/dentist/doc-with-phone.webp 480w,
+                                    static/img/dentist/doc-with-phone.webp 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/dentist/doc-with-phone.webp" />
+                                    <!--div class="card-container" style="background-color:var(--eq-dark-blue-grey);background-image:url('');"-->
+                                    <div class="card-feature"></div>
+
+                                    <div class="card-stack" style="background-color:var(--eq-dark-purple);
+                                    background-image: url('../../static/img/woods/w2.webp');
+                                    ">
+                                      <div class="card-title">
+                                        <p class="body-2" style="color:var(--eq-white);text-align:left"><a href="/"
+                                            rel="noopener noreferrer"><strong>Technology:</strong> We are developing cutting
+                                            technology tools that will make the management of the your practice a breeze.  
+                                            A full-scale platform, with a
+                                            dedicated team specific to your
+                                            business goals and technical needs. A personalized app that provides the
+                                            important
+                                            data</a></p>
+                                      </div>
+                                      <div class="card-cta">
+                                        <h6 class="call-to-action" style="color:var(--eq-white)"><a href="/"
+                                            >Technology</a></h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                            </div>
+                          </div>
+
+
+
+
+
+
+
+
+
+
+                          <div class="row slider-controls-row">
+                            <div class="slider-controls col-12">
+                              <div class="carousel-control">
+                                <div class="ctrl-prev">
+                                  <div class="ctrl-box">
+                                    <div class="ctrl-prev-icon"></div>
+                                  </div>
+                                </div>
+                                <div class="ctrl-next">
+                                  <div class="ctrl-box">
+                                    <div class="ctrl-next-icon"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <footer>
+                                <div class="slider-cta link-secondary">
+                                  <h6 class="call-to-action link-color" style="color:var(--eq-white)">
+                                    <a href="/services"
+                                      >Learn more</a></h6>
+                                </div>
+                              </footer>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                </div>
+
+
+
+
+
+                <div data-eq-parallax-instance-id="1" class="wp-block-custom-eq-parallax fixed-parallax">
+
+                  <div class="section top">
+                    <div class="photowrap image first">
+                      <div id="grad1">
+                      </div>
+                      <!-- helo -->
+                      <!-- furniture-c.jpg pt1.jpeg -->
+                      <div
+                        style="background-color:#0d1623;background-image:url('static/img/home/furniture-c.webp');color:white"
+                        data-entity-type="file" data-image-style="original" class="bg"></div>
+
+                      <!-- <div class="eq-prallax-v1-slide1"> </div>
+                      <div class="container-fluid-custom fixed-parallax">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-10 col-sm-12"></div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+
+
+
+                  <section id="eq-software" class="section">
+                    <div class="eq-prallax-v1-slide2 last">
+                      <div class="photowrap image second">
+                       
+                        <div class="bg" style="background-color:#0d1623; background-image:url('static/img/Office/t2.jpeg')">
+
+                        </div>
+
+                        <div class="eqPrallaxV1SecSlide"> </div>
+                      </div>
+
+
+                      <div class="container-fluid-custom">
+                        <div class="row ">
+                          <div class="col-lg-9 col-md-10 col-sm-12 mycontent">
+                            <div style="color:white" class="content">
+
+                              <h5>EQuity Software</h5>
+
+                              <p>
+                                We Deliver better care with powerful tools.
+
+                              </p>
+
+                              <div class="wp-block-button is-style-fill"><a class="wp-block-button__link" href="/careers/technology/index.html">Learn More
+                                  </a></div>
+
+
+                              <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
+                                  href="/careers/technology/index.html">Equity Tools</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+
+
+
+
+
+                <!-- static/img/Office/ofc-meting-1260x470.png -->
+                <!-- <p>  background-image:url('sites/default/files/2021-04/F110%20Wide%20Image.jpg'); </p> -->
+                <!-- girl-with-comp.jpeg   girl-sitting.jpeg  dentist/doc-sitting.jpg 
+                  dentist/doc-see-monitor.jpg
+                -->
+
+                <section id="eq-software" class="wp-block-custom-eq-hero-article undefined alignfull">
+                  <div class="imageWrapper" style="background-color:#0d1623;
+            background-image:url('static/img/dentist/doc-see-monitor.webp');
+            color:white" data-image-style="original">
+                    <div class="image-gradient">
+                    </div>
+
+                    <div class="container-fluid-custom ">
+                      <div class="bg-overlay" style="display:block;background-color:#0d1623;opacity:0.05"></div>
+                      <div class="row post-entry">
+                        <div class="text-wrapper">
+                          <div class="intro-text">
+                            <main>
+                              <h5 class="has-text-color" style="color:var(--eq-ultra-light-purple);">Software Innovation
+                              </h5>
+
+
+                              <h2>Equity
+                                Software: A Powerful Technology Partner.
+
+                              </h2>
+
+                              <p></p>
+                            </main>
+                          </div>
+                        </div>
+                        <div class="image-wrapper">
+                          <div class="cardWrapper">
+<!-- dev chgd   look for .card:hover in first css  to change the hover over  background-size:contain;   background-image: url('../static/img/woods/7.webp' -->
+                            <div class="card"
+                              style="background-color:#a841ff; background-image:url('static/img/woods/pu.jpeg');color:white; " >
+                              <a href="/services" target="_self">
+                                <main>
+                                  <h6 style="color:white">Non clinical Support</h6>
+                                  <div class="cardBottomText">
+                                    <h4 style="color:white">Equity provides the best non clinical support to help you
+                                      realize your clinical, financial, and personal goals.
+
+                                      <br /></h4>
+                                    <p style="color:white" class="call-to-action arrow-right ficon-lg-arrow-right">     
+                                    </p>
+                                  </div>
+                                </main>
+                              </a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="views-element-container block">
+
+
+                </div>
+
+
+
+
+                <section id="eq-software"
+                  class="wp-block-custom-eq-content-left-right-image-variant-1 undefined alignfull"  >
+                  <div class="bg-overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <section  class="image-right">
+                        <!-- #DA70D6; #a841ff; -->
+                        <div class=" text-wrapper"
+                          style="background-color: var(--eq-ultra-light-purple); border-radius: 0px 25px 25px 0px; background-image:false">
+                          <main >
+                            <h2 class="has-text-color" style="color:var(--eq-white)">Join the team</h2>
+
+                            <p style="color:var(--eq-white)" class="has-text-color body-2">At Equity we always strive to
+                              take our patient care experience to new heights. If  you are passsionate about patient care, lets connect..</p>
+
+
+                            <div class="wp-block-button button"><a
+                                class="wp-block-button__link has-text-color has-background has-fff-background-color"
+                                href="/join-us/openings/index.html" style="color:#0870d8"> View
+                                roles</a></div>
+                          </main>
+                        </div>
+
+                        <div data-aos="fade-left" class="image-wrapper">
+                          <div class="image-feature">
+                            <img  loading="lazy" srcset="static/img/dentist/assistant.png 480w,
+                          static/img/dentist/assistant.png 800w" sizes="(max-width: 600px) 480px,
+                                  800px" src="static/img/dentist/assistant.png" loading="lazy" class="lazyload"
+                              style="border-radius: 25px 25px 25px 25px;" loading="lazy" />
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </section>
+
+                
+                <div data-eq-parallax-instance-id="2" class="wp-block-custom-eq-parallax fixed-parallax">
+                  <div class="section top">
+                    <div class="photowrap image first">
+                      <div id="grad1"></div>
+                    
+                      <div
+                        style="background-color:#0d1623;background-image:url('static/img/Office/we4.webp');color:white"
+                        data-image-style="original" class="bg"></div>
+                      <div class="eq-prallax-v1-slide1"> </div>
+                      <div class="container-fluid-custom fixed-parallax">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-10 col-sm-12"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <section id="eq-partnership" class="section">
+                    <div class="eq-prallax-v1-slide2 last">
+                      <div class="photowrap image second">
+                        <div
+                          style="background-color:#ddd8d2; background-image:url('static/img/content/bridge.webp');color:white"
+                          class="bg"></div>
+                        <div class="eqPrallaxV1SecSlide"> </div>
+                      </div>
+
+                      <div class="container-fluid-custom">
+                        <div class="row ">
+                          <div class="col-lg-9 col-md-10 col-sm-12 mycontent">
+                            <div style="color:white" class="content">
+                              <h5>Practice Affiliations</h5>
+
+
+                              <p class="parallax-heading">We will help you with non-clinical work. </p>
+
+
+                              <div class="wp-block-button is-style-fill"><a class="wp-block-button__link"  href="https://airtable.com/shrhKKltoW8uRMdti">Apply Now</a></div>
+
+
+
+
+                              <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
+                                href="/careers/contact/index.html">Learn More</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+
+
+
+                <section id="eq-partner" class="wp-block-custom-eq-hero-article undefined alignfull">
+                  <div class="imageWrapper"
+                    style="background-color:#0d1623;background-image:url('static/img/home/pt1.webp');color:white"
+                    data-image-style="original">
+                    <div class="image-gradient"></div>
+                    <div class="container-fluid-custom ">
+                      <div class="bg-overlay" style="display:block;background-color:#0d1623;opacity:0"></div>
+                      <div class="row post-entry">
+                        <div class="text-wrapper">
+                          <div class="intro-text">
+                            <main>
+                              <h5 class="has-text-color" style="color: var(--eq-ultra-light-purple)">Partnerships</h5>
+
+
+                              <h2><a href="/"  rel="noreferrer noopener">Helping
+                                  Partners: We help practice owners with every stage of their career. </a>
+                              </h2>
+                            </main>
+                          </div>
+                        </div>
+                        <div class="image-wrapper">
+                          <div class="cardWrapper">  
+                            <div class="card"
+                            style="background-color:#a841ff; background-image:url('static/img/woods/pu.jpeg');color:white; ">
+                              <a href="/services" target="_self">
+                                <main>
+                                  <h6 style="color:white">Affiliations</h6>
+                                  <div class="cardBottomText">
+                                    <h4 style="color:white">More ways to help you achieve professional success, at every
+                                      stage of your career. </h4>
+                                    <p style="color:white" class="call-to-action arrow-right ficon-lg-arrow-right">     
+                                    </p>
+                                  </div>
+                                </main>
+                              </a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+
+
+
+
+
+
+                <section id="eq-partner"
+                  class="wp-block-custom-eq-content-left-right-image-variant-1 undefined alignfull">
+                  <div class="bg-overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <section class="image-left">
+                        <div class=" text-wrapper"
+                          style="background-color: var(--eq-ultra-light-purple); border-radius: 25px 0px 0px 0px; background-image:false">
+                          <main>
+                            <h2 class="has-text-color" style="color:var(--eq-white)">Become a Partner </h2>
+
+                            <p style="color:var(--eq-white)" class="has-text-color body-2">We are always looking for new
+                              partnerships with doctors who are committed to their patients.
+                              <!-- We are always looking for new
+                            Dental Hygienist that can drive the results to new heights -->
+
+                            </p>
+
+
+                            <div class="wp-block-button button"><a
+                                class="wp-block-button__link has-text-color has-background has-fff-background-color"
+                                 href="/join-us/openings/index.html" style="color:#0870d8">View
+                                Doctor Positions</a></div>
+                          </main>
+                        </div>
+                        <!-- 
+                          sites/default/files/2020-07/6F.01_Married_Unit_Rotar_Dawn_3_0_sm2_0.jpg
+
+                          static/img/dentist/d34.jpg 
+
+                        static/img/dentist/doc-sitting.jpg
+                        -->
+
+                        <div data-aos="fade-right" class="image-wrapper">
+                          <div class="image-feature"><img  loading="lazy" srcset="static/img/dentist/d34.png 480w,
+                                    static/img/dentist/d34.png 800w" sizes="(max-width: 600px) 480px,
+                                            800px" src="static/img/dentist/d34.png" alt="EQ Dental" class="lazyload"
+                              loading="lazy" data-src="static/img/dentist/d34.png"
+                              style="border-radius: 0px 25px 25px 0px;" />
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </section>
+                <div data-eq-parallax-instance-id="3" class="wp-block-custom-eq-parallax fixed-parallax">
+                  <div class="section top">
+                    <div class="photowrap image first">
+                      <div id="grad1"></div>
+                      <div
+                        style="background-color:#0d1623;background-image:url('static/img/home/work-place-Culture.webp');color:white"
+                        data-image-style="original" class="bg"></div>
+                      <div class="eq-prallax-v1-slide1"> </div>
+                      <div class="container-fluid-custom fixed-parallax">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-10 col-sm-12"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <section id="eq-healthcare" class="section">
+                    <div class="eq-prallax-v1-slide2 last">
+                      <div class="photowrap image second">
+
+                        <div
+                          style="background-color: #CB5699;background-image:url('static/img/content/bridge.webp');color:white"
+                          class="bg"></div>
+                        <div class="eqPrallaxV1SecSlide"> </div>
+                      </div>
+                      <div class="container-fluid-custom">
+                        <div class="row ">
+                          <div class="col-lg-9 col-md-10 col-sm-12 mycontent">
+                            <div style="color:white" class="content">
+                              <h5>EQ Dental Care</h5>
+
+                              <p class="parallax-heading">Improving access to quality and affordable dental care.</p>
+
+
+
+
+                              <div class="wp-block-button is-style-fill"><a class="wp-block-button__link" href="/careers/about-us/">Visit
+                                  EQ HEALTHCARE</a></div>
+
+
+
+
+                              <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
+                                  href="/careers/about-us/">Learn more</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+
+
+
+                <section id="eq-healthcare" class="wp-block-custom-eq-hero-article undefined alignfull">
+                  
+                  <div class="imageWrapper"
+                    style="background-color:#0d1623;background-image:url('static/img/content/bridge.webp');color:white"
+                    data-image-style="original">
+                    
+                    <div class="image-gradient"></div>
+                    <div class="container-fluid-custom ">
+                      <div class="bg-overlay" style="display:block;background-color:#0d1623;opacity:0"></div>
+                      <div class="row post-entry">
+                        <div class="text-wrapper">
+                          <div class="intro-text">
+                            <main>
+                              <h5 class="has-text-color" style="color:var(--eq-ultra-light-purple);">Impact</h5>
+
+
+                              <h2><a rel="noreferrer noopener" href="services">Helping Healthcare professionals achieve more.</a>
+                              </h2>
+
+
+                              <p></p>
+                            </main>
+                          </div>
+                        </div>
+                        <div class="image-wrapper">
+                          <div class="cardWrapper">
+                            <div class="card"
+                            style="background-color:#a841ff; background-image:url('static/img/woods/pu.jpeg');color:white; ">
+                              <a href="/services" target="_self">
+                                <main>
+                                  <h6 style="color:white">Impact</h6>
+                                  <div class="cardBottomText">
+                                    <h4 style="color:white">Helping dentists achieve their personal, professional and
+                                      other goals.
+                                    </h4>
+                                    <p style="color:white" class="call-to-action arrow-right ficon-lg-arrow-right">     
+                                    </p>
+                                  </div>
+                                </main>
+                              </a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+               
+
+
+                <section id="eq-healthcare"
+                class="wp-block-custom-eq-content-left-right-image-variant-1 undefined alignfull">
+                <div class="bg-overlay"></div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <section class="image-right">
+                      <div class=" text-wrapper"
+                        style="background-color:var(--eq-ultra-light-purple); border-radius: 0px 25px 0px 0px; background-image:false">
+                        <main>
+                          <h2 class="has-text-color" style="color:var(--eq-white)">Let's work together</h2>
+
+
+                          <p style="color:var(--eq-white)" class="has-text-color body-2">Every day we work together to
+                            improve outcomes for healthcare providers and their patients.
+
+
+                          </p>
+
+
+
+
+                          <div class="wp-block-button button"><a
+                              class="wp-block-button__link has-text-color has-background has-fff-background-color"
+                              href="/join-us/openings/index.html" style="color:#0870d8">View positions</a></div>
+                        </main>
+                      </div>
+                      <div data-aos="fade-left" class="image-wrapper">
+                        <div class="image-feature"><img  loading="lazy" srcset="static/img/dentist/d1.webp 480w,
+                          static/img/dentist/d1.webp 800w" sizes="(max-width: 600px) 480px,
+                                  800px" src="static/img/dentist/d1.webp" loading="lazy"
+                            style="border-radius: 25px 25px 25px 25px;" /></div>
+                        <!-- remove above link -->
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </section>
+
+
+
+
+
+               
+
+                <div data-eq-parallax-instance-id="4" class="wp-block-custom-eq-parallax fixed-parallax">
+                  <div class="section top">
+                    <div class="photowrap image first">
+                      <div id="grad1"></div>
+                    
+                      <div
+                        style="background-color:#0d1623;background-image:url('static/img/Office/we4.webp');color:white"
+                        data-image-style="original" class="bg"></div>
+                      <div class="eq-prallax-v1-slide1"> </div>
+                      <div class="container-fluid-custom fixed-parallax">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-10 col-sm-12"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--  NO  change the permanent background color  -->
+                  
+                  
+                  <section id="eq-partnership" class="section">
+                    <div class="eq-prallax-v1-slide2 last">
+                      <div class="photowrap image second">
+                        <div
+                          style="background-color:#ddd8d2; background-image:url('static/img/content/bridge.webp');color:white"
+                          class="bg"></div>
+                        <div class="eqPrallaxV1SecSlide"> </div>
+                      </div>
+              
+                      <div class="container-fluid-custom">
+                        <div class="row ">
+                          <div class="col-lg-9 col-md-10 col-sm-12 mycontent">
+                            <div style="color:white" class="content">
+                              <h5>EQUITY INVESTORS</h5>
+              
+              
+                              <p class="parallax-heading">Let's invest in the future of better health. </p>
+              
+              
+                              <div class="wp-block-button is-style-fill"><a class="wp-block-button__link"
+                                target="blank" href="/investors">Investors</a></div>
+
+
+
+                             <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
+                                 target="blank" href="https://calendly.com/equitydental/equity-dental-partners-30">Lets chat</a></div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+
+
+
+
+
+
+
+                <section id="eq-doctor-energy" class="wp-block-custom-eq-hero-article undefined alignfull">
+                  <div class="imageWrapper"
+                    style="background-color:#0d1623;background-image:url('static/img/people/inv1.jpeg');color:white"
+                    data-image-style="original">
+                    <div class="image-gradient"></div>
+                    <div class="container-fluid-custom ">
+                      <div class="bg-overlay" style="display:block;background-color:#0d1623;opacity:0"></div>
+                      <div class="row post-entry">
+                        <div class="text-wrapper">
+                          <div class="intro-text">
+                            <main>
+                              <h5 class="has-text-color" style="color:#a841ff">Investor Relations</h5>
+
+
+                              <h2><a href="/" rel="noreferrer noopener"> Helping more people experience financial well-being.
+
+                                </a></h2>
+                            </main>
+                          </div>
+                        </div>
+                        <div class="image-wrapper">
+                          <div class="cardWrapper">
+                            <div class="card"
+                            style="background-color:#a841ff; background-image:url('static/img/woods/pu.jpeg');color:white;">
+                              <a href="/" target="_self">
+                                <main>
+                                  <h6 style="color:white">Investors</h6>
+                                  <div class="cardBottomText">
+                                    <h4 style="color:white"> Maximizing shareholder value while ensuring we do the right
+                                      thing for all stakeholders. </h4>
+                                    <p style="color:white" class="call-to-action arrow-right ficon-lg-arrow-right">     
+                                    </p>
+                                  </div>
+                                </main>
+                              </a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+
+
+
+                <section id="eq-doctor-energy"
+                  class="wp-block-custom-eq-content-left-right-image-variant-1 undefined alignfull">
+                  <div class="bg-overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <section class="image-left">
+                        <div class=" text-wrapper"
+                          style="background-color:var(--eq-ultra-light-purple); border-radius: 25px 0px 0px 0px; background-image:false">
+                          <main>
+                            <h2 class="has-text-color" style="color:var(--eq-white)">Come join us!</h2>
+
+
+
+                            <p style="color:var(--eq-white)" class="has-text-color body-2"> If you are passionate for
+                              turning dreams into reality we have a place for You. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+
+
+
+
+                            <div class="wp-block-button button"><a
+                                class="wp-block-button__link has-text-color has-background has-fff-background-color"
+                                href="/join-us/openings/index.html" style="color:#0870d8">Open Positions </a> </div>
+
+
+
+
+                            <p></p>
+
+                          </main>
+                        </div>
+                        <div data-aos="fade-right" class="image-wrapper">
+                          <div class="image-feature"><img  loading="lazy" srcset="static/img/dentist/dentist-single-5.webp 480w,
+                            static/img/dentist/dentist-single-5.webp 800w" sizes="(max-width: 600px) 480px,
+                                    800px" src="static/img/dentist/dentist-single-5.webp"
+                              style="border-radius: 0px 25px 25px 0px;" /></div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </section>
+
+                <section id="eq-all-businesses" class="wp-block-custom-eq-spacer undefined alignfull"
+                  style="background-color:transparent;height:7em"></section>
+                <!-- style="background-color:var(--eq-dark-indigo)"> -->
+                
+                <section style="background-image: url('../static/img/woods/wood1.webp')" id="eq-all-businesses" data-eq-spotlight-large-instance-id="1"
+                  class="wp-block-custom-eq-spotlight-large undefined alignfull" style="background-color:var(--eq-purple-gradient-color-1);
+                  background-image:var(--eq-purple-gradient-1); ">
+                  <div class="slider-stack dark-container container-fluid-custom">
+                    <div class="row slider-header-row">
+                      <div class="slider-header col-12">
+                        <h2 class="slider-title" style="color:var(--eq-white);text-align:left">More</h2>
+                      </div>
+                    </div>
+                    <div class="row slider-container-row">
+                      <div class="slider-container bleed-end-col-12 mr-0 pr-0 w-100">
+                        <div class="slider-items">
+
+                          <!-- items start here -->
+
+
+                          <div class="wp-block-custom-eq-feature-card-full-image-large" style="background-image:url(static/img/content/teeth-watching.webp);
+                            border-radius: 25px 25px 25px 25px;
+                            ">
+                            <div class="gradientMask" style="border-radius: 25px;"></div>
+                            <div class="card-container"><a href="/" target="_self">
+                                <main>
+                                  <h3 class="card-title" style="color:var(--eq-white);text-align:left">Dental </h3>
+                                  <p class="card-description body-2" style="color:var(--eq-white);text-align:left">
+                                    We help dentists realize their Clinical, Financial, and Personal goals </p>
+                                  <div class="card-link arrow-right ficon-lg-arrow-right"
+                                    style="color:var(--eq-white);text-align:left"></div>
+                                </main>
+                              </a></div>
+                          </div>
+
+                        
+
+
+
+                          <div class="wp-block-custom-eq-feature-card-full-image-large" style="background-image:url(static/img/content/Con1.webp);
+                          border-radius: 25px 25px 25px 25px;
+                          ">
+                            <div class="gradientMask" style="border-radius: 25px;"></div>
+                            <div class="card-container"><a href="/services" target="_self">
+                                <main>
+                                  <h3 class="card-title" style="color:var(--eq-white);text-align:left">Consulting </h3>
+                                  <p class="card-description body-2" style="color:var(--eq-white);text-align:left">
+                                    Helping solo practices to exceed their revenue expections. </p>
+                                  <div class="card-link arrow-right ficon-lg-arrow-right"
+                                    style="color:var(--eq-white);text-align:left"></div>
+                                </main>
+                              </a></div>
+                          </div>
+
+                            
+
+
+                          <!-- channe her start  -->
+                          <div class="wp-block-custom-eq-feature-card-full-image-large" style="background-image:url(static/img/content/girl-orange.webp);
+                        border-radius: 25px 25px 25px 25px;
+                        ">
+                            <div class="gradientMask" style="border-radius: 25px;"></div>
+                            <div class="card-container"><a href="/services" target="_self">
+                                <main>
+                                  <h3 class="card-title" style="color:var(--eq-white);text-align:left">Non Clinical
+                                    Support</h3>
+                                  <p class="card-description body-2" style="color:var(--eq-white);text-align:left">
+                                    Our staff at your service.</p>
+                                  <div class="card-link arrow-right ficon-lg-arrow-right"
+                                    style="color:var(--eq-white);text-align:left"></div>
+                                </main>
+                              </a></div>
+                          </div>
+
+
+
+                          <div class="wp-block-custom-eq-feature-card-full-image-large" style="background-image:url(static/img/home/capital7.webp);
+                          border-radius: 25px 25px 25px 25px;
+                          ">
+                                  <div class="gradientMask" style="border-radius: 25px;"></div>
+                                  <div class="card-container">
+                                    
+                                    <a href="/services" target="_self">
+                                      <main>
+                                        <h3 class="card-title" style="color:var(--eq-white);text-align:left">Capital </h3>
+                                        <p class="card-description body-2" style="color:var(--eq-white);text-align:left">
+                                          Let's chat how we can help you achieve your goals. </p>
+                                        <div class="card-link arrow-right ficon-lg-arrow-right"
+                                          style="color:var(--eq-white);text-align:left"></div>
+                                      </main>
+                                    </a></div>
+                                </div>
+
+
+
+                          <div class="wp-block-custom-eq-feature-card-full-image-large" style="background-image:url(static/img/content/Visual-Analytics-2.webp);
+                      border-radius: 25px 25px 25px 25px;
+                      ">
+                            <div class="gradientMask" style="border-radius: 25px;"></div>
+                            <div class="card-container"><a href="/services" target="_self">
+                                <main>
+                                  <h3 class="card-title" style="color:var(--eq-white);text-align:left">Information Technology</h3>
+                                  <p class="card-description body-2" style="color:var(--eq-white);text-align:left">
+                                    Data helps health industry to make better decisions. </p>
+                                  <div class="card-link arrow-right ficon-lg-arrow-right"
+                                    style="color:var(--eq-white);text-align:left"></div>
+                                </main>
+                              </a></div>
+                          </div>
+
+
+                         
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row slider-controls-row">
+                      <div class="slider-controls col-12">
+                        <div class="carousel-control">
+                          <div class="ctrl-prev">
+                            <div class="ctrl-box">
+                              <div class="ctrl-prev-icon"></div>
+                            </div>
+                          </div>
+                          <div class="ctrl-next">
+                            <div class="ctrl-box">
+                              <div class="ctrl-next-icon"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="slider-cta link-secondary">
+                          <h6 class="call-to-action link-color" style="color:var(--eq-white)"></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </main>
+    </div>
+
+
+
+
+    <!-- Footer container begins -->
+    <footer   style="background-image: url('../../static/img/woods/good-d2.webp');" class="eq-footer pt-5 px-md-0 px-lg-0 pb-0 align-items-start" role="footer">
+      <div class="container-fluid-custom">
+        <div class="row">
+  
+  
+  
+  
+  
+  
+  
+          <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0">
+            <div class="inner-content">
+  
+              <div class="block block--basic block--footer-logo">
+  
+  
+                <div class="basic__body">
+                  <p><img alt="Equity Health Group Logo" class="eq_logo_stacked" 
+                      src="https://eqdpi.com/static/logo/l1-mail.png"
+                      title="Equity Health Group Logo" /></p>
+                </div>
+  
+  
+              </div>
+  
+  
+            </div>
+          </div>
+  
+          <div class="col-6 col-md-4 col-lg-3 mb-3 mb-md-0">
+            <div class="inner-content">
+  
+              <div class="block block--footer-menu-custom-1">
+  
+                <ul data-region="footer_left_in" class="eq-footer-menu-custom-1">
+                  <li>
+                    
+                    <a href="/careers/about-us/" title="Contact" class="body-2"> About Us
+                    </a>
+
+                  </li>
+                 
+                  <li>
+  
+                    <a href="/investors" target="_self" title="Investor Center"
+                      class="body-2" > Investor Center
+                    </a>
+  
+                  </li>
+                  
+                  <li>
+                    <a href="/privacy" target="_self" title="Privacy" class="body-2"
+                      > Privacy
+                    </a>
+                  </li>
+                </ul>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+  
+
+
+          <div class="col-6 col-md-4 col-lg-3 mb-3 mb-md-0">
+            <div class="inner-content">
+  
+              <div class="block block--footer-menu-custom-2">
+  
+                <ul data-region="footer_right_in" class="eq-footer-menu-custom-2">
+                  
+                  <li>
+                    <a href="/Employee-Signin" target="_self" class="body-2"
+                      title="Careers"> Employee Login 
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="/careers" target="_self" class="body-2"
+                      title="Careers"> Careers 
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="/Partnerships" target="_self" title="Partnerships" class="body-2"
+                      > Acquistions/ Partnerships
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="careers/contact/index.html" target="_self" class="body-2" title="Contact us"> Contact Us
+                    </a>
+  
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+         
+        </div>
+      </div>
+  
+      <div class="eq-copyrights py-3 px-md-4" role="copyrights">
+        <div class="container-fluid-custom">
+          <div class="row align-items-center">
+  
+            <div class="col-12 col-md-6 d-none d-md-block">
+              <div class="inner-content text-center text-md-left">
+                <div class="block block--basic block--copyrights">
+                  <div class="basic__body">
+                    <p class="body-3" title="Copyright 2021 Equity Health Group">© 2021 Equity Health Group</p>
+                  </div>
+  
+                </div>
+  
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-6 ">
+              <div class="inner-content text-center text-md-right">
+  
+                <div class="block-social-media-links block block--social-media-links">
+  
+                  <ul class="social-media-links--platforms platforms inline horizontal">
+                    <li>
+                      <a href="https://www.facebook.com/eqdpi" title="Equity Health Group Facebook page">
+                        <span class='fa fa-facebook fa-in'></span>
+                      </a>
+  
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/eqdpi" title="Equity Health Group YouTube page">
+                        <span class='fa fa-youtube fa-in'></span>
+                      </a>
+  
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/equitydental/" title="Equity Health Group Instagram page">
+                        <span class='fa fa-instagram fa-in'></span>
+                      </a>
+  
+                    </li>
+                    <li>
+                      <a href="https://www.twitter.com/eqdpi" title="Equity Health Group Twitter page">
+                        <span class='fa fa-twitter fa-in'></span>
+                      </a>
+  
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/" title="Equity Health Group LinkedIn page">
+                        <span class='fa fa-linkedin fa-in'></span>
+                      </a>
+  
+                    </li>
+                  </ul>
+  
+  
+                </div>
+  
+  
+              </div>
+            </div>
+  
+            <div class="col-12 d-block d-md-none mt-2 mt-md-0">
+              <div class="inner-content text-center text-md-left">
+  
+                <div class="block block--basic block--copyrights">
+  
+  
+                  <div class="basic__body">
+                    <p class="body-3" title="Copyright 2021 Equity Health Group">© 2021 Equity Health Group</p>
+                  </div>
+  
+  
+                </div>
+  
+  
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer container ends -->
+
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+  
+  <!-- Cleaned ( all jquery stuff ) but check again -->
+  <script src="sites/default/files/js/home/jss_second.js"></script>
+
+
+  
+    <!-- Top nav is screwed in mobile   DEV test again -->
+    <!-- DO more cleaning - take out ajax calls -->
+  <script src="sites/default/files/js/home/third-home-ir.js"></script>
+
+
+  <!--  CLEANING Bit by bit DONE  -  screws up the focus cards  -->
+  <script src="sites/default/files/js/home/four-home.js"></script>
+
+
+  <script src="themes/FoundationPress/js/lightbox.js"></script>
+
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      speed: 1200,
+
+      pagination: {
+          el: '.swiper-pagination'
+      },
+      loop: true,
+      effect: 'fade',
+      autoplay: {
+          delay: 3500,  //3500
+          disableOnInteraction: false
+      }
+
+});
+  </script>
+
+
+
+<!-- loader start  -->
+<script type="text/javascript">
+  $(document).ready(function () {
+      console.log('1937-Checking jquery -- is loaded');
+      $(".loader-logo").addClass("animated fadeOut");
+      $('.preloader').delay(800).fadeOut(800); // set duration in brackets
+  });
+</script>
+<!-- loader end  -->
+
+
+</body>
+
+</html>

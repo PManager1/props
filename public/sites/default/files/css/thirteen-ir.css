@@ -1,0 +1,71 @@
+.position-container {
+    position: relative
+}
+
+.resize-none {
+    resize: none
+}
+
+.resize-vertical {
+    min-height: 2em;
+    resize: vertical
+}
+
+.resize-horizontal {
+    max-width: 100%;
+    resize: horizontal
+}
+
+.resize-both {
+    max-width: 100%;
+    min-height: 2em;
+    resize: both
+}
+
+body.drag {
+    cursor: move
+}
+
+.ui-helper-hidden {
+    display: none
+}
+
+.ui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.25em;
+    position: relative;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat
+}
+
+.ui-button {
+    padding: .4em 1em;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: visible
+}
+
+.ui-button,
+.ui-button:active,
+.ui-button:hover,
+.ui-button:link,
+.ui-button:visited {
+    text-decoration: none
+}
+
+button.ui-button::-moz-focus-inner,
+input.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}

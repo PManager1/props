@@ -1,0 +1,22 @@
+
+.image-1{
+    margin-top: -195px; 
+}
+
+.send-access{
+    margin-left: 490px !important;
+} 
+
+
+
+@media only screen and (max-width: 600px) {
+    .pval-img{
+    /* width:80%; */
+    background-position-x: -7px;
+    margin-top: -20px !important;
+    } 
+    .send-access{
+        margin-left: 35px  !important;
+    } 
+    }   
+

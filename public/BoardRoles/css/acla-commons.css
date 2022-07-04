@@ -1,0 +1,52 @@
+
+  
+/*-------------------------------- commonstyle css ------------------------------ */
+
+
+.white-color {
+	color: #ffffff !important;
+}
+
+body, html {
+	font-family: myriad-pro, Arial;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000000;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+a {
+	color: #007cc3;
+	font-weight: 400;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: 0;
+}
+b, strong {
+    font-weight: 600 !important;
+}
+
+.mt45 {
+	margin-top: 45px;
+}
+
+.h2-heading {
+	font-size: 70px;
+	font-weight: 500;
+	font-family: "NewFont1", "NewFont2", "Khand", sans-serif;
+	line-height: 70px;
+}
+
+header .mt45 {
+	margin-top: 35px;
+}
+
+

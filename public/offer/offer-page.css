@@ -1,0 +1,30 @@
+
+.top-image{
+    /* background-position-y: -100px; */
+}
+
+.image-1{
+    margin-top: -195px; 
+}
+
+.send-access{
+    /* margin-left: 409px !important; */
+    text-align: right;
+} 
+
+.pval-img{
+    min-height: 702px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pval-img{
+    background-position-x: -3px;
+    margin-top: -20px !important;
+    /* background-image: url('../static/img/offer/sm/sm2.png')!important; */
+    } 
+    .send-access{
+        /* margin-left: 35px  !important; */
+        text-align: right;
+    } 
+    }   
+
