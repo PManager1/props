@@ -1,0 +1,82 @@
+.custom-logo-link.mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .button_container {
+        position: fixed;
+        top: 17px;
+        right: 20px;
+    }
+    .custom-logo-link img {
+        height: 50px;
+        width: auto;
+        position: relative;
+        z-index: 1;
+    }
+    #wrapper-navbar {
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        box-shadow: 1px 1px 35px rgba(0,0,0,0.08);
+    }
+    body {
+        padding-top: 6 6px;
+    }
+    .custom-logo-link.transparent {
+        display: none;
+    }
+    .custom-logo-link.mobile {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .custom-logo-link {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .button_container {
+        top: 18px;
+    }
+    #footer-full-content > div {
+        padding-top: 0px!important;
+    }
+    #footer-full-content a {
+        opacity: 1;
+    }
+    .widget_nav_menu:after {
+        content: '';
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        background-image: url('../icons/chevron-down-white.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .ip-menu-icon {
+        opacity: 0.7;
+    }
+    #main-nav .navbar-brand {
+        padding-top: 0px;
+    }
+    .home #home-hero {
+        padding-bottom: 110px;
+    }
+    .home #page-wrapper {
+        margin-top: 0px;
+    }
+    .page-template-careers-at-image-property #main-nav .navbar-brand {
+        padding-top: 0px;
+    }
+    #home-hero {
+        margin-top: 0px!important;
+    }
+    .expand {
+        padding-top: 80px!important;
+    }
+}
+

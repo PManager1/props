@@ -1,0 +1,40 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ #commission-calculator #collapseExample .card, body #collapseExample .card {
+    padding-top: 10px;
+    border: 1px solid #b2b2b4;
+}
+
+#commission-calculator label.custom-sign{
+    position: relative;
+}
+#commission-calculator label.custom-sign ~ input{
+    position: relative;
+    padding-left: 40px;
+    /* border: 2px solid red; */
+}
+#commission-calculator label.custom-sign:after{
+    content: "$";
+    background: #f7941d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: calc(100% + 9px);
+    width: 30px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 10px;
+    border-radius: .25rem 0 0 .25rem;
+}
+#commission-calculator .card input{
+    border: 1px solid #bbbfc4;
+}
+#commission-calculator .card label:after{
+    background: #bbbfc4;
+}
