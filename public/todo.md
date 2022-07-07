@@ -172,7 +172,7 @@ https://www.ge.com/about-us
 
 
 
-Enabling a better, more efficient healthcare system
+Enabling a better, more efficient real estate system
 
 We want to become the most trusted brand in dentistry.
 
