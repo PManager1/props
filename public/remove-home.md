@@ -250,9 +250,9 @@ http://info.evidon.com/pub_info/3428
 src="../../themes/custom/assets/images/eq_logo_default.svg
 
 title="General Electric
-aria-label="Equity Health Group Facebook
+aria-label="Equity Partners Group Facebook
 
-aria-label="Equity Health Group LinkedIn
+aria-label="Equity Partners Group LinkedIn
 
 ge-renewable-energy
 <section id="ge-renewable-energy" 

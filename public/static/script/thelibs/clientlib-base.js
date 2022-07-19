@@ -4414,8 +4414,8 @@ function vplayercall(istreamfile, hei, contid, startmode) {
         'mute': 'false',
 //		'logo.file': '/content/dam/equity-web/en/global-resource/images/' +  logoimagename,       commented
 //		'logo.position': 'top-left',															commented   	
-		'author': 'Equity Health Group',
-		'abouttext': 'Equity Health Group',
+		'author': 'Equity Partners Group',
+		'abouttext': 'Equity Partners Group',
 		'controlbar.position': 'over',
 		'plugins': {
 			'/content/dam/equity-web/en/audio/viral-2h.swf': {
@@ -4440,8 +4440,8 @@ function vplayercallFill(istreamfile, preimage, wid, hei, contid, startmode) {
 		'width': '100%',
 		'height': hei - 10,
 		'logo.position': 'top-left',
-		'author': 'Equity Health Group',
-		'abouttext': 'Equity Health Group',
+		'author': 'Equity Partners Group',
+		'abouttext': 'Equity Partners Group',
 		'stretching': 'fill',
 		'controlbar.position': 'over',
 		'plugins': {
@@ -4465,8 +4465,8 @@ function vplayercallhei(istreamfile, preimage, wid, hei, contid, startmode) {
 		'lightcolor': '66FFFF',
 		'width': '100%',
 		'logo.position': 'top-left',
-		'author': 'Equity Health Group',
-		'abouttext': 'Equity Health Group',
+		'author': 'Equity Partners Group',
+		'abouttext': 'Equity Partners Group',
 		'stretching': 'fill',
 		'controlbar.position': 'over',
 		'plugins': {
@@ -4498,8 +4498,8 @@ function vplayercAudio(istreamfile, wid, contid, startmode) {
  //       'mute': 'false',
 		'width': wid,
 		'height': playerhei,
-		'author': 'Equity Health Group',
-		'abouttext': 'Equity Health Group',
+		'author': 'Equity Partners Group',
+		'abouttext': 'Equity Partners Group',
 		'plugins': {
 			'/content/dam/equity-web/en/audio/viral-2h.swf': {
 				onpause: 'false',
